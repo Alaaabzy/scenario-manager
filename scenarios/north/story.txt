@@ -1,0 +1,44 @@
+[start]
+text=start.txt
+choice=Поговорить со старостой|elder
+choice=Пойти в таверну к магу|tavern
+
+[elder]
+text=elder.txt
+choice=Отправиться по лесной тропе|forest
+choice=Сначала поговорить с магом|tavern
+
+[tavern]
+text=tavern.txt
+choice=Расспросить старосту об экспедиции|elder
+choice=Отправиться в лес|forest
+
+[forest]
+text=forest.txt
+choice=Помочь раненому человеку|rescue
+choice=Оставить его и вернуться в деревню|start
+
+[rescue]
+text=rescue.txt
+choice=Взять ключ и подняться к крепости|gate
+choice=Отказаться от ключа и вернуться в деревню|start
+
+[gate]
+text=gate.txt
+choice=Вставить ключ в углубление и повернуть|chamber
+choice=Попытаться разбить печать мечом|doom
+
+[chamber]
+text=chamber.txt
+choice=Повернуть ключ обратно и восстановить печать|victory
+choice=Согласиться стать новым хозяином крепости|darkness
+choice=Вытащить ключ и открыть врата полностью|doom
+
+[victory]
+text=victory.txt
+
+[darkness]
+text=darkness.txt
+
+[doom]
+text=doom.txt

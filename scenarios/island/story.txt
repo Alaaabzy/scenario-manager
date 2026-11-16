@@ -1,0 +1,10 @@
+[start]
+text=start.txt
+choice=Зажечь сигнальный огонь на маяке|rescue
+choice=Отправиться к далёким огням на плоту|lost
+
+[rescue]
+text=rescue.txt
+
+[lost]
+text=lost.txt
